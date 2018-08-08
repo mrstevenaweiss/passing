@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import '../App.css';
+import Search from '../components/Search'
 
-class Search extends Component {
+class SearchContainer extends Component {
   render() {
     return (
-      <div className="Search">
-        SEARCH BAR
+      <div className="search-container">
+        <Search />
       </div>
     );
   }
 }
 
-export default Search;
+export default SearchContainer;

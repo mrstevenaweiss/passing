@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import PassingList from '../components/PassingList';
 
-class Search extends Component {
+class PassingListContainer extends Component {
   render() {
     return (
-      <div className="Search">
-        SEARCH BAR
+      <div className="passing-list-container">
+        <PassingList />
       </div>
     );
   }
 }
 
-export default Search;
+export default PassingListContainer;

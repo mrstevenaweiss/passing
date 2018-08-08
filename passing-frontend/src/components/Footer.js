@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
 
-class Search extends Component {
+
+class Footer extends Component {
   render() {
     return (
-      <div className="Footer">
+      <div className="footer">
         <footer class="mdl-mini-footer">
           <div class="mdl-mini-footer--left-section">
             <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
@@ -29,4 +29,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default Footer;

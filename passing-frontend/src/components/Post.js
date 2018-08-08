@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../App.css';
 
 class Post extends Component {
   render() {
     return (
-      <div className="Post">
-        <div className="post-title">
+      <div className="post">
+        POST
+        {/* <div className="post-title">
           WHO DID YOU MISS?
           </div>
           <div className="form-inline">
@@ -21,7 +21,7 @@ class Post extends Component {
               POST
             </button>
             </div>
-          </div>
+          </div> */}
          </div>
 
     );
